@@ -8,7 +8,7 @@
     "build": "rollup -c",
     "watch": "rollup -c --watch",
     "lint": "eslint src --ext .ts --fix",
-    "publish:next": "npm publish --access public --tag next",
+    "publish:next": "npm publish --access public --tag next"
   },
   "publishConfig": {
     "access": "public"
