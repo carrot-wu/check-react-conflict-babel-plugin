@@ -23,9 +23,7 @@ export default {
       delimiters: ['{{', '}}'],
     }),
     resolve({
-      jsnext: true,
-      main: true,
-      browser: true,
+      mainFields: ['main']
     }),
     typescript({
       exclude: 'node_modules/**',
