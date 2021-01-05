@@ -1,6 +1,6 @@
 {
   "name": "@carrotwu/check-conflict-babel-plugin",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "用于检测react render模板中是否存在未处理的合并冲突遗留代码",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "rollup -c",
     "watch": "rollup -c --watch",
     "lint": "eslint src --ext .ts --fix",
-    "publish:next": "npm publish --access public --tag next"
+    "publish:next": "npm publish --access public"
   },
   "publishConfig": {
     "access": "public"
