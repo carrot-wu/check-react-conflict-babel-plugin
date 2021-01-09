@@ -44,4 +44,4 @@ module.exports = {
 
 ## 插件是如何检测冲突代码的呢
 
-我们都知道的是在react中，所有的jsx代码最终都会被react转移成`react.createElement`的代码形式，所以我们只需要通过babel对生成的语法树做语法分析即可。这样子我们就能获取到渲染函数中的合并冲突代码。如果想更加深入的了解插件的内在原理，可以查看我之前写的一篇[`博客文章`](https://github.com/timarney/react-app-rewired/)
+我们都知道的是在react中，所有的jsx代码最终都会被react转移成`react.createElement`的代码形式，所以我们只需要通过babel对生成的语法树做语法分析即可。这样子我们就能获取到渲染函数中的合并冲突代码。如果想更加深入的了解插件的内在原理，可以查看我之前写的一篇[`博客文章`](https://ssr.carrotwu.com/post?id=38)
