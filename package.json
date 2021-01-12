@@ -1,6 +1,6 @@
 {
   "name": "@carrotwu/check-conflict-babel-plugin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "用于检测react render模板中是否存在未处理的合并冲突遗留代码",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "access": "public"
   },
   "author": "carrotwu",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carrot-wu/check-react-conflict-babel-plugin.git"
